@@ -1,6 +1,6 @@
 # DataTrader per il Trading Algoritmico Avanzato
 
-DataTrader è una piattaforma open-source di backtesting basato sugli eventi da utilizzare nei mercati azionari. La maggior parte delle strategie descritte nel sito TradingQuant.it (https://www.tradingquant.it) utilizza DataTrader come framework per il backtest.
+DataTrader è una piattaforma open-source di backtesting basato sugli eventi da utilizzare nei mercati azionari. La maggior parte delle strategie descritte nel sito tradingquant.it (https://www.tradingquant.it) utilizza DataTrader come framework per il backtest.
 
 Il software viene fornito con una licenza open source "MIT" (vedere di seguito).
 
@@ -144,7 +144,7 @@ In caso di domande sull'installazione o sull'utilizzo degli esempi, non esitare 
 
 # Termini di Utilizzo
 
-Copyright (c) 2017-2025 TradingQuant.it,
+Copyright (c) 2017-2025 Tradingquant.it,
 
 Con la presente viene concessa l'autorizzazione, a titolo gratuito, a chiunque ottenga una copia di questo software e dei file di documentazione associati (il "Software"), di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzo, copia, modifica, unione , pubblicare, distribuire, concedere in licenza e / o vendere copie del Software e consentire alle persone a cui il Software è fornito di farlo, alle seguenti condizioni:
 

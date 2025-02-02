@@ -27,7 +27,7 @@ setup(
     #version='0.0.2',
     version=__version__,
 
-    description='DataTrader - motore di backtesting per datatrading.info',
+    description='DataTrader - motore di backtesting per tradingquant.it',
     long_description=long_description,
 
     # The project's main homepage.
