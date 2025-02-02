@@ -1,6 +1,6 @@
 # DataTrader per il Trading Algoritmico Avanzato
 
-DataTrader è una piattaforma open-source di backtesting basato sugli eventi da utilizzare nei mercati azionari. La maggior parte delle strategie descritte nel sito datatrading.info (https://www.datatrading.info) utilizza DataTrader come framework per il backtest.
+DataTrader è una piattaforma open-source di backtesting basato sugli eventi da utilizzare nei mercati azionari. La maggior parte delle strategie descritte nel sito TradingQuant.it (https://www.tradingquant.it) utilizza DataTrader come framework per il backtest.
 
 Il software viene fornito con una licenza open source "MIT" (vedere di seguito).
 
@@ -53,7 +53,7 @@ A questo punto è necessario utilizzare pip per installare DataTrader come una l
 I passaggi seguenti richiederanno un po' di tempo (5-10 minuti) poiché DataTrader si basa su NumPy, SciPy, Pandas, Matplotlib e molte altre librerie e quindi dovranno essere tutti compilati:
 
 ```
-pip install git+https://github.com/datatrading-info/datatrader.git
+pip install git+https://github.com/tradingquant-it/datatrader.git
 ```
 
 Se hai installato DataTrader in un nuovo ambiente virtuale (al contrario di Anaconda), dovrai installare il solito set di librerie scientifiche di Python.
@@ -89,7 +89,7 @@ Per verificare che DataTrader sia stato installato correttamente, apri un termin
 
 Se non sono presenti messaggi di errore, la libreria è stata installata correttamente.
 
-In caso di problemi con le istruzioni di cui sopra, contattaci all'indirizzo [support@datatrading.info] (mailto: support@datatrading.info).
+In caso di problemi con le istruzioni di cui sopra, contattaci all'indirizzo [support@tradingquant.it] (mailto: support@tradingquant.it).
 
 
 # Esempi
@@ -109,14 +109,14 @@ Quindi scaricare qualche esempio dei dati dello SPY:
 
 ```
 cd ~/data
-wget https://raw.githubusercontent.com/datatrading-info/datatrader/master/data/SPY.csv
+wget https://raw.githubusercontent.com/tradingquant-it/datatrader/master/data/SPY.csv
 ```
 
 Quindi scarica lo script di esempio del backtest Buy And Hold:
 
 ```
 cd ~/datatrader/examples
-wget https://raw.githubusercontent.com/datatrading-info/datatrader/master/examples/buy_and_hold_backtest.py 
+wget https://raw.githubusercontent.com/tradingquant-it/datatrader/master/examples/buy_and_hold_backtest.py 
 ```
 
 Infine, possiamo eseguire lo stesso backtest:
@@ -136,15 +136,15 @@ Una volta completato, vedrai un completo "tearsheet" dei risultati, tra cui:
 
 Il tearsheet si presenta simile al seguente:
 
-![alt tag](https://datatrading.info/wp-content/uploads/datatrader-buy-and-hold-tearsheet-001.png)
+![alt tag](https://tradingquant.it/wp-content/uploads/datatrader-buy-and-hold-tearsheet-001.png)
 
 Si può esplorare il file ```buy_and_hold_backtest.py``` per esaminare l'API di DataTrader. Vedrai che è relativamente semplice impostare una strategia semplice ed eseguirla.
 
-In caso di domande sull'installazione o sull'utilizzo degli esempi, non esitare a inviare un'e-mail [support@datatrading.info](mailto:support@datatrading.info).
+In caso di domande sull'installazione o sull'utilizzo degli esempi, non esitare a inviare un'e-mail [support@tradingquant.it](mailto:support@tradingquant.it).
 
 # Termini di Utilizzo
 
-Copyright (c) 2017-2020 DataTrading.info,
+Copyright (c) 2017-2025 TradingQuant.it,
 
 Con la presente viene concessa l'autorizzazione, a titolo gratuito, a chiunque ottenga una copia di questo software e dei file di documentazione associati (il "Software"), di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzo, copia, modifica, unione , pubblicare, distribuire, concedere in licenza e / o vendere copie del Software e consentire alle persone a cui il Software è fornito di farlo, alle seguenti condizioni:
 
